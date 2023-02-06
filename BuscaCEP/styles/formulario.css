@@ -1,0 +1,145 @@
+.principal {
+    width: 50vw;
+    margin: 5em auto 6em auto;
+}
+
+.principal__titulo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--laranja)
+}
+
+.principal__subtitulo {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    color: var(--azul);
+    margin: 3em 0 2em 0;
+}
+
+.campo__etiqueta {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--azul);
+    margin-left: 1em;
+}
+
+.campo__escrita {
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.formulario__campo {
+    margin: .6em 3em .6em 0;
+}
+
+.formulario__dupla {
+    display: flex;
+}
+
+.boataoPesquisar {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 220px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.formulario__botao {
+    background: var(--cinza);
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 50px;
+    color: var(--branco);
+    cursor: pointer;
+    float: right;
+    text-align: center;
+    
+}
+.formulario__botao:hover {
+    background: var(--azul);
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    color: var(--branco);
+    cursor: pointer;
+    float: right;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.formulario__erro {
+    display: flex;
+    margin-top: .5em;
+    align-items: center;
+}
+
+.erro__imagem {
+    width: 16px;
+    height: 16px;
+    margin: 0 .5em;
+    background-image: url('../img/warning.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.erro__texto {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--vermelho);
+}
+
+.mensagemErro {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 600px) {
+.boataoPesquisar{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario__botao {
+    background: var(--cinza);
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 30px;
+    border-radius: 50px;
+    color: var(--branco);
+    cursor: pointer;
+    float: right;
+    text-align: center;
+    
+}
+
+.formulario__botao:hover {
+    font-size: 12px;
+}
+
+.mensagemErro {
+    font-size: 12px;
+}
+
+}
